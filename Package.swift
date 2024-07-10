@@ -4,7 +4,7 @@
 import PackageDescription
 let package = Package(
     name: "SendBirdSDK",
-    platforms: [.iOS(.v10)],
+    platforms: [.iOS(.v12)],
     products: [
         .library(
             name: "SendBirdSDK",
@@ -15,8 +15,8 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "SendBirdSDK",
-            url: "https://github.com/sendbird/sendbird-ios-framework/releases/download/v3.1.51/SendBirdSDK.xcframework.zip",
-            checksum: "e7d1458862df271a22d2bdc55e29e2f21303aec8eacdaa80705300dbe8900bc7"
+            url: "https://github.com/sendbird/sendbird-ios-framework/releases/download/v3.1.56/SendBirdSDK.xcframework.zip",
+            checksum: "1fbf2a1f479f5cf1944462eb51ae7baf6b82d006662b34015fa80502befa3f30"
         ),
     ]
 )
